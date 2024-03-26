@@ -6,8 +6,6 @@ repos:
       - id: terraform-fmt
         args: ["-recursive"]
       - id: tflint
-        args:
-          - "--fix"
   - repo: https://github.com/terraform-docs/terraform-docs
     rev: "v0.16.0"
     hooks:
